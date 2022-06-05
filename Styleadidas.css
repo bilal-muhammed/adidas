@@ -1,0 +1,368 @@
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADING*/
+
+#head {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+}
+
+#hed1 {
+    background-color: black;
+    height: 30px;
+    ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    height: 100%;
+    width: 33%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+#hed2 {
+    background-color: white;
+    height: 26px;
+    width: 100%;
+    display: flex;
+}
+
+.bar2_1 {
+    height: 100%;
+    width: 70%;
+}
+
+.bar2_2 {
+    height: 100%;
+    width: 30%;
+    background-color: white;
+
+}
+
+#list_1 {
+    margin: 4px 0 0 72px;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+
+}
+
+#list_1 li {
+    margin: 0 12px 0 0;
+    color: grey;
+}
+
+#hed3 {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+#hed3_1 {
+    background-color: white;
+    height: 100%;
+    width: 15%;
+}
+
+#hed3_2 {
+    background-color: white;
+    height: 100%;
+    width: 55%;
+}
+
+#list_2 {
+    list-style: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+#list_2 li {
+    margin: 11px 1px 1px 29px;
+}
+
+.bld {
+    font-weight: bolder;
+}
+
+#div3_3 {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+#serchbx {
+    background-color: #dfdbd4;
+
+    width: 156px;
+    height: 27px;
+    margin: 17px 0 0 50px;
+    border: 0;
+}
+
+.dips {
+    margin: 21px 15px 3px 25px
+}
+
+/* After Header */
+#div2nd {
+    background-color: aqua;
+    height: 600px;
+    width: 100%;
+    position: relative;
+
+}
+
+#div2_tag {
+    background-color: transparent;
+    height: 300px;
+    width: 30%;
+    position: absolute;
+    top: 130px;
+    left: 155px;
+}
+
+/* Button Styles 1st */
+.btun_1 {
+    border: 0;
+    height: 40px;
+    margin: 13px 1px 0 1px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+#btnlst {
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+}
+
+#btnlst li {}
+
+#div_3 {
+    background-size: cover;
+    background-image: url(images/div3_img.webp);
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+
+}
+
+#div3_tag {
+    height: 250px;
+    width: 280px;
+    background-color: transparent;
+    margin: 16px 0 0 133px;
+
+}
+
+#btn_3 {
+    height: 40px;
+    width: 165px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+
+
+#div_4 {
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.Btn4div {
+    margin: 34px 5px 0px 6px;
+    height: 40px;
+
+    font-weight: 100;
+    background-color: white;
+    border: 1px solid gray;
+
+}
+
+#div5 {
+    height: 300px;
+    width: 100%;
+    background-color: deep;
+}
+
+#div5_1 {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+
+}
+
+#div5_2 {
+    height: 270px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+
+.div5_2_1 {
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    color: rgb(221, 30, 30);
+    font-weight: 800;
+}
+
+#div_6 {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin: -22px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.pricetag {
+    background-color: white;
+    width: 228px;
+    height: 70px;
+    line-height: 1;
+    margin: -17px 0 0 0px;
+}
+
+.prdts_1 {
+    height: 85%;
+    width: 17%;
+    background-color:white;
+}
+
+#div7 {
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#div7_1 {
+    background-color:white;
+    height: 100%;
+    width: 90%;
+
+}
+
+#div7_1_1 {}
+
+#div7_baner {
+    background:white;height: 465px;width:100%;
+    display: flex;justify-content: space-evenly;
+    align-items: center;
+
+}
+.div_ban{
+    height:100%;width: 24%;
+    background-color:white;
+}
+.ban7imgs{
+    width: 100%;height: 100%;
+}
+.ban_title{
+    background-color:white;width: 279px;
+    height: 82px;
+}
+#div_8{
+    height: 400px;width: 100%;
+    background-color: #e9ecef;
+    display: flex;justify-content:space-evenly;
+    align-items: center;
+}
+.div8_1{
+    height: 80%;
+    width: 40%;
+    background-color:transparent;
+    text-align: left;
+
+}
+.btun_8{
+    
+    border: 0;
+    height: 42px;
+    width: 115px;
+    margin: 15px 1px 0 10px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+#div_9{
+    height: 320px;
+    width: 100%;
+    background-color: white;
+    display: flex;justify-content: center;
+}
+.div9_1{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+}
+.list_9{
+    list-style: none;
+    line-height: 1.6;
+    font-weight: 100;
+}
+.list_9 li{
+    font-size: smaller;
+}
+#div_10{
+    height: 130px;
+    width: 100%;
+    background-color:#363738;
+    display: flex;flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.div10_1{
+    width: 55%;
+    height: 40%;
+    background-color:transparent;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9ecef;
+          
+}
+.div10_2{
+    width: 55%;
+    height: 40%;
+    background-color: transparent;
+    color: #808183;
+    
+}
+#list10 li{
+    margin:0 0 0 31px;
+    color: grey;
+}
